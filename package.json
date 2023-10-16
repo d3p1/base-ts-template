@@ -1,0 +1,25 @@
+{
+  "name": "@d3p1/base-ts-template",
+  "version": "1.0.0",
+  "description": "A template to build things using TypeScript",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3p1/base-ts-template.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3p1/base-ts-template/issues"
+  },
+  "homepage": "https://github.com/d3p1/base-ts-template#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@d3p1/commitlint-config": "^1.0.0",
+    "husky": "^8.0.3"
+  }
+}
