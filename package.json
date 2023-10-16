@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A template to build things using TypeScript",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "format:code": "prettier --ignore-path .gitignore --check src",
+    "format:code:fix": "npm run format:code -- --write"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/d3p1/base-ts-template.git"
@@ -20,6 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
     "@d3p1/commitlint-config": "^1.0.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "prettier": "3.0.3"
   }
 }
