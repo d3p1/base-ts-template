@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "strict": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "rootDir": "src/",
+    "outDir": "dist/"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/**/*.test.ts"]
+}
