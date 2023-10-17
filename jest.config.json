@@ -1,6 +1,4 @@
 {
   "clearMocks": true,
-  "testEnvironment": "jsdom",
-  "roots": ["<rootDir>/src"],
-  "preset": "ts-jest/presets/default-esm"
+  "roots": ["<rootDir>/src"]
 }
