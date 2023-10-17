@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "lint:code": "eslint --ignore-path .gitignore --ext .js,.ts src",
-    "lint:code:fix": "npm run lint -- --fix",
+    "lint:code:fix": "npm run lint:code -- --fix",
     "format:code": "prettier --ignore-path .gitignore --check src",
     "format:code:fix": "npm run format:code -- --write",
     "refactor": "npm run format:code:fix && npm run lint:code:fix",
