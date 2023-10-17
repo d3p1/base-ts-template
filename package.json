@@ -9,7 +9,8 @@
     "lint:code:fix": "npm run lint -- --fix",
     "format:code": "prettier --ignore-path .gitignore --check src",
     "format:code:fix": "npm run format:code -- --write",
-    "refactor": "npm run format:code:fix && npm run lint:code:fix"
+    "refactor": "npm run format:code:fix && npm run lint:code:fix",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,12 +28,15 @@
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
     "@d3p1/commitlint-config": "^1.0.0",
+    "@types/jest": "^29.5.5",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
+    "jest": "^29.7.0",
     "prettier": "3.0.3",
+    "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
