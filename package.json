@@ -10,7 +10,8 @@
     "format:code": "prettier --ignore-path .gitignore --check src",
     "format:code:fix": "npm run format:code -- --write",
     "refactor": "npm run format:code:fix && npm run lint:code:fix",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
