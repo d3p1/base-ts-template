@@ -11,7 +11,7 @@
 
 ## Introduction
 
-A [repository aimed at serving as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), providing basic configurations for using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/), [TypeScript](https://www.typescriptlang.org/), and [Jest](https://jestjs.io/). It also includes a setup for use within a [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers), featuring optimized VSCode configurations for working with these technologies. Lastly, it incorporates [GitHub Actions](https://github.com/features/actions) that automate the project [build](./.github/workflows/build.yml) and [release](./.github/workflows/release.yml).
+A [repository aimed at serving as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to implement projects using [TypeScript](https://www.typescriptlang.org/), providing basic configurations for using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/), and [Jest](https://jestjs.io/). It also includes a setup for use within a [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers), featuring optimized [VSCode](https://code.visualstudio.com/) configurations for working with these technologies. Lastly, it incorporates [GitHub Actions](https://github.com/features/actions) that automate the project [build](./.github/workflows/build.yml) and [release](./.github/workflows/release.yml).
 
 ## Usage
 
