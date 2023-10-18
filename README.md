@@ -3,9 +3,9 @@
 # [BASE TS TEMPLATE]
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Build](https://github.com/d3p1/base-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/d3p1/base-ts-template/actions/workflows/build.yml)
+[![Release](https://github.com/d3p1/base-ts-template/actions/workflows/release.yml/badge.svg)](https://github.com/d3p1/base-ts-template/actions/workflows/release.yml)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
-[![build](https://github.com/d3p1/base-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/d3p1/base-ts-template/actions/workflows/build.yml)
-[![release](https://github.com/d3p1/base-ts-template/actions/workflows/release.yml/badge.svg)](https://github.com/d3p1/base-ts-template/actions/workflows/release.yml)
 
 </div>
 
@@ -27,7 +27,7 @@ We will proceed with detailed information about the various technologies used:
 
 [TypeScript](https://www.typescriptlang.org/) & [Jest](https://jestjs.io/): Both [TypeScript](https://www.typescriptlang.org/) and [Jest](https://jestjs.io/) are set up to work with code within `./src` (note the template files in `./src/index.ts` and `./src/index.test.ts`). See the `rootDir` and `include` options in [`tsconfig.json`](./tsconfig.json), as well as the `roots` option in [`jest.config.json`](./jest.config.json).
 
-[GitHub Actions](https://github.com/features/actions): The [`release` workflow](.github/workflows/release.yml) uses [Semantic Release](https://github.com/semantic-release/semantic-release) (in reality, it uses the [`d3p1/semantic-releasify@v1` action](https://github.com/d3p1/semantic-releasify) to facilitate its use). This will only trigger if the [`build` workflow](./.github/workflows/build.yml) runs successfully. Please review the `workflow_run` event in [`release.yml`](./.github/workflows/release.yml) and the condition used in its `release` job. Since the [Semantic Release](https://github.com/semantic-release/semantic-release) bot creates a tag for each release, updates the `CHANGELOG.md`, and generates a release, it's necessary for the branch to not be protected so that the bot can add its changes without issues. As this repository is intended to serve as a template for personal repositories, this isn't a major concern, as non-contributors (and in personal repositories, typically, the only contributor is the repository owner) won't be able to `push` directly to the default branch or approve PRs from forks made to submit changes.
+[GitHub Actions](https://github.com/features/actions): The [release workflow](.github/workflows/release.yml) uses [Semantic Release](https://github.com/semantic-release/semantic-release) (in reality, it uses the [`d3p1/semantic-releasify@v1` action](https://github.com/d3p1/semantic-releasify) to facilitate its use). This will only trigger if the [build workflow](./.github/workflows/build.yml) runs successfully. Please review the `workflow_run` event in [`release.yml`](./.github/workflows/release.yml) and the condition used in its `release` job. Since the [Semantic Release](https://github.com/semantic-release/semantic-release) bot creates a tag for each release, updates the `CHANGELOG.md`, and generates a release, it's necessary for the branch to not be protected so that the bot can add its changes without issues. As this repository is intended to serve as a template for personal repositories, this isn't a major concern, as non-contributors (and in personal repositories, typically, the only contributor is the repository owner) won't be able to `push` directly to the default branch or approve PRs from forks made to submit changes.
 
 ## Changelog
 

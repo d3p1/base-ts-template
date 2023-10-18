@@ -2,7 +2,7 @@
 # @description Build automatization
 # @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
 ##
-name: build
+name: Build
 
 on:
   push:
