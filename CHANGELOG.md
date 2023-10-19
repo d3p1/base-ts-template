@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/d3p1/base-ts-template/compare/v1.0.1...v1.0.2) (2023-10-19)
+
+
+### Bug Fixes
+
+* improve ts configuration [[#1](https://github.com/d3p1/base-ts-template/issues/1)] ([ac402ba](https://github.com/d3p1/base-ts-template/commit/ac402baf53c608b9cd3f7d6c62017ff9a6915a55))
+
 ## [1.0.1](https://github.com/d3p1/base-ts-template/compare/v1.0.0...v1.0.1) (2023-10-18)
 
 
