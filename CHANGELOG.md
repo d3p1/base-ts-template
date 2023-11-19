@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/d3p1/base-ts-template/compare/v1.0.2...v1.0.3) (2023-11-19)
+
+
+### Bug Fixes
+
+* improve eslint configuration [[#1](https://github.com/d3p1/base-ts-template/issues/1)] ([4387718](https://github.com/d3p1/base-ts-template/commit/438771862f41c06eaa5b9b14b61d40023f1ba4cb))
+
 ## [1.0.2](https://github.com/d3p1/base-ts-template/compare/v1.0.1...v1.0.2) (2023-10-19)
 
 
